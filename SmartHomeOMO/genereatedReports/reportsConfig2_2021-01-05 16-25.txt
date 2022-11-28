@@ -1,0 +1,707 @@
+------House configuration report------
+House: Chata2
+-Floor: firstFloor
+--Room: Room hallway
+---Window 1: Louver
+--Room: Room kitchen
+---Window 1: Louver
+---Window 2: Louver
+---Device: fridge
+---Device: oven
+---Device: stove
+---Device: microwave
+---Device: coffee
+--Room: Room livingRoom
+---Window 1: Louver
+---Device: livingroomtv
+---Device: biglamp1
+---Device: biglamp2
+---Device: vinyl
+---Device: ls1
+---Device: ls2
+--Room: Room garage
+---Window 1: Louver
+---Sport Equipment: Ski:ROCKRIDER
+---Sport Equipment: Ski:ROCKRIDER
+---Sport Equipment: Ski:ROCKRIDER
+---Sport Equipment: Ski:ROCKRIDER
+---Sport Equipment: Ski:Salomon
+---Sport Equipment: Ski:Salomon
+---Sport Equipment: Ski:Salomon
+---Sport Equipment: Ski:Salomon
+---Sport Equipment: Ski:Salomon
+-Floor: secondFloor
+--Room: Room bathroom
+---Window 1: Louver
+---Device: shower
+---Device: toilet
+--Room: Room firstBedroom
+---Window 1: Louver
+---Device: firstbedroomtv
+---Device: parentslamp
+--Room: Room secondBedroom
+---Window 1: Louver
+---Device: secondbedroomtv
+---Device: nazarslamp
+-Floor: thirdFloor
+--Room: Room thirdBedroom
+---Window 1: Louver
+---Device: thirdbedroomtv
+---Device: ivanslamp
+--Room: Room forthBedroom
+---Window 1: Louver
+---Device: fifthbedroomtv
+---Device: grandparentslamp
+-Floor: forthFloor
+--Room: Room thirdBedroom
+---Window 1: Louver
+---Device: mariaslamp
+.....................................
+People: 
+-Person MOM Helen
+-Person GRANDPA Max
+-Person CHILD Maria
+-Person DAD Max
+-Person CHILD Ivan
+-Person GRANDMA Max
+-Person CHILD Nazar
+Animals: 
+-Animal George
+-Animal Daria
+-Animal Polly
+
+
+------Activity and usage report from round 0 to 50------
+
+...........Usages...........
+Person: Person CHILD Ivan
+---Used device: biglamp2 2 times
+---Used device: ivanslamp 1 times
+---Used device: ls1 1 times
+---Used device: ls2 1 times
+---Used device: microwave 1 times
+---Used device: secondbedroomtv 2 times
+---Used device: stove 1 times
+Person: Person CHILD Maria
+---Used device: biglamp1 1 times
+---Used device: fifthbedroomtv 1 times
+---Used device: fridge 1 times
+---Used device: grandparentslamp 1 times
+---Used device: nazarslamp 1 times
+---Used device: oven 1 times
+---Used device: parentslamp 1 times
+---Used device: vinyl 2 times
+Person: Person CHILD Nazar
+---Used device: fridge 1 times
+---Used device: grandparentslamp 1 times
+---Used device: livingroomtv 1 times
+---Used device: ls1 2 times
+---Used device: ls2 2 times
+---Used device: thirdbedroomtv 1 times
+Person: Person DAD Max
+---Used device: biglamp1 3 times
+---Used device: biglamp2 1 times
+---Used device: livingroomtv 1 times
+---Used device: ls1 1 times
+---Used device: stove 1 times
+---Used device: toilet 1 times
+Person: Person GRANDMA Max
+---Used device: biglamp1 1 times
+---Used device: firstbedroomtv 1 times
+---Used device: ls2 1 times
+---Used device: mariaslamp 1 times
+---Used device: nazarslamp 1 times
+---Used device: parentslamp 1 times
+---Used device: thirdbedroomtv 1 times
+---Used device: toilet 1 times
+---Used device: vinyl 1 times
+Person: Person GRANDPA Max
+---Used device: coffee 1 times
+---Used device: fridge 1 times
+---Used device: ivanslamp 1 times
+---Used device: microwave 1 times
+---Used device: oven 1 times
+---Used device: shower 2 times
+---Used device: stove 1 times
+---Used device: toilet 1 times
+---Used device: vinyl 1 times
+Person: Person MOM Helen
+---Used device: biglamp2 2 times
+---Used device: nazarslamp 1 times
+---Used device: oven 2 times
+---Used device: parentslamp 2 times
+---Used device: shower 1 times
+
+...........Sport activities...........
+Person: Person CHILD Ivan
+---Used sport equipment: Ski:ROCKRIDER 1 times
+Person: Person CHILD Maria
+---Used sport equipment: Ski:ROCKRIDER 1 times
+---Used sport equipment: Ski:Salomon 1 times
+Person: Person CHILD Nazar
+---Used sport equipment: Ski:ROCKRIDER 1 times
+Person: Person DAD Max
+---Used sport equipment: Ski:Salomon 1 times
+Person: Person GRANDMA Max
+---Used sport equipment: Ski:Salomon 1 times
+Person: Person GRANDPA Max
+---Used sport equipment: Ski:Salomon 1 times
+---Used sport equipment: Ski:Salomon 1 times
+Person: Person MOM Helen
+
+...........Animal activities...........
+Animal: Animal Daria
+---Did: ANIMAL_SOUND 50 times
+Animal: Animal George
+---Did: ANIMAL_SOUND 50 times
+Animal: Animal Polly
+---Did: ANIMAL_SOUND 50 times
+
+
+
+------Event report from round 0 to 50------
+
+...........Notifications...........
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person MOM Helen => biglamp2
+-Notification: TURN_ON_DEVICE | biglamp2 => biglamp2
+-Notification: USING_DEVICE | Person GRANDPA Max => toilet
+-Notification: TURN_ON_DEVICE | toilet => toilet
+-Notification: USING_DEVICE | Person CHILD Maria => vinyl
+-Notification: TURN_ON_DEVICE | vinyl => vinyl
+-Notification: USING_DEVICE | Person DAD Max => biglamp1
+-Notification: TURN_ON_DEVICE | biglamp1 => biglamp1
+-Notification: USING_DEVICE | Person CHILD Ivan => secondbedroomtv
+-Notification: TURN_ON_DEVICE | secondbedroomtv => secondbedroomtv
+-Notification: USING_DEVICE | Person GRANDMA Max => parentslamp
+-Notification: TURN_ON_DEVICE | parentslamp => parentslamp
+-Notification: USING_DEVICE | Person CHILD Nazar => thirdbedroomtv
+-Notification: TURN_ON_DEVICE | thirdbedroomtv => thirdbedroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_ON_DEVICE | Person MOM Helen => biglamp2
+-Notification: WC | Person GRANDPA Max => toilet
+-Notification: TURN_ON_DEVICE | Person CHILD Maria => vinyl
+-Notification: TURN_ON_DEVICE | Person DAD Max => biglamp1
+-Notification: WATCHING_TV | Person CHILD Ivan => secondbedroomtv
+-Notification: TURN_ON_DEVICE | Person GRANDMA Max => parentslamp
+-Notification: WATCHING_TV | Person CHILD Nazar => thirdbedroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: LOUVERS_ON | Louver => Louver
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room kitchen
+-Notification: PUT_OUT_THE_FIRE | Person DAD Max => Room secondBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | toilet => toilet
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => shower
+-Notification: TURN_ON_DEVICE | shower => shower
+-Notification: TURN_IDLE_DEVICE | biglamp2 => biglamp2
+-Notification: TURN_IDLE_DEVICE | parentslamp => parentslamp
+-Notification: TURN_IDLE_DEVICE | biglamp1 => biglamp1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room forthBedroom
+-Notification: PUT_OUT_THE_FIRE | Person DAD Max => Room livingRoom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TAKE_A_SHOWER | Person GRANDPA Max => shower
+-Notification: TURN_IDLE_DEVICE | vinyl => vinyl
+-Notification: TURN_IDLE_DEVICE | secondbedroomtv => secondbedroomtv
+-Notification: USING_DEVICE | Person GRANDMA Max => firstbedroomtv
+-Notification: TURN_ON_DEVICE | firstbedroomtv => firstbedroomtv
+-Notification: TURN_IDLE_DEVICE | thirdbedroomtv => thirdbedroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Maria => fridge
+-Notification: USING_DEVICE | Person CHILD Ivan => ls1
+-Notification: TURN_ON_DEVICE | ls1 => ls1
+-Notification: WATCHING_TV | Person GRANDMA Max => firstbedroomtv
+-Notification: USING_DEVICE | Person CHILD Nazar => ls2
+-Notification: TURN_ON_DEVICE | ls2 => ls2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Maria => biglamp1
+-Notification: TURN_ON_DEVICE | biglamp1 => biglamp1
+-Notification: USING_DEVICE | Person DAD Max => toilet
+-Notification: TURN_ON_DEVICE | toilet => toilet
+-Notification: LISTENING_MUSIC | Person CHILD Ivan => ls1
+-Notification: USING_DEVICE | Person MOM Helen => oven
+-Notification: TURN_ON_DEVICE | oven => oven
+-Notification: LISTENING_MUSIC | Person CHILD Nazar => ls2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | shower => shower
+-Notification: TURN_ON_DEVICE | Person CHILD Maria => biglamp1
+-Notification: WC | Person DAD Max => toilet
+-Notification: BAKING | Person MOM Helen => oven
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => stove
+-Notification: TURN_ON_DEVICE | stove => stove
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: COOKING | Person GRANDPA Max => stove
+-Notification: TURN_IDLE_DEVICE | toilet => toilet
+-Notification: TURN_IDLE_DEVICE | firstbedroomtv => firstbedroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | biglamp1 => biglamp1
+-Notification: USING_DEVICE | Person DAD Max => biglamp1
+-Notification: TURN_ON_DEVICE | biglamp1 => biglamp1
+-Notification: USING_DEVICE | Person GRANDMA Max => toilet
+-Notification: TURN_ON_DEVICE | toilet => toilet
+-Notification: TURN_IDLE_DEVICE | oven => oven
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Maria => parentslamp
+-Notification: TURN_ON_DEVICE | parentslamp => parentslamp
+-Notification: TURN_ON_DEVICE | Person DAD Max => biglamp1
+-Notification: TURN_IDLE_DEVICE | ls1 => ls1
+-Notification: WC | Person GRANDMA Max => toilet
+-Notification: USING_DEVICE | Person MOM Helen => oven
+-Notification: TURN_ON_DEVICE | oven => oven
+-Notification: TURN_IDLE_DEVICE | ls2 => ls2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | stove => stove
+-Notification: TURN_ON_DEVICE | Person CHILD Maria => parentslamp
+-Notification: USING_DEVICE | Person CHILD Ivan => ls2
+-Notification: TURN_ON_DEVICE | ls2 => ls2
+-Notification: BAKING | Person MOM Helen => oven
+-Notification: USING_DEVICE | Person CHILD Nazar => ls1
+-Notification: TURN_ON_DEVICE | ls1 => ls1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => shower
+-Notification: TURN_ON_DEVICE | shower => shower
+-Notification: LISTENING_MUSIC | Person CHILD Ivan => ls2
+-Notification: TURN_IDLE_DEVICE | toilet => toilet
+-Notification: LISTENING_MUSIC | Person CHILD Nazar => ls1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room firstBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TAKE_A_SHOWER | Person GRANDPA Max => shower
+-Notification: TURN_IDLE_DEVICE | biglamp1 => biglamp1
+-Notification: USING_DEVICE | Person GRANDMA Max => mariaslamp
+-Notification: TURN_ON_DEVICE | mariaslamp => mariaslamp
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | parentslamp => parentslamp
+-Notification: USING_DEVICE | Person DAD Max => biglamp1
+-Notification: TURN_ON_DEVICE | biglamp1 => biglamp1
+-Notification: TURN_ON_DEVICE | Person GRANDMA Max => mariaslamp
+-Notification: TURN_IDLE_DEVICE | oven => oven
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room secondBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Maria => fifthbedroomtv
+-Notification: TURN_ON_DEVICE | fifthbedroomtv => fifthbedroomtv
+-Notification: TURN_ON_DEVICE | Person DAD Max => biglamp1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room secondBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | shower => shower
+-Notification: WATCHING_TV | Person CHILD Maria => fifthbedroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => microwave
+-Notification: TURN_ON_DEVICE | microwave => microwave
+-Notification: TURN_IDLE_DEVICE | ls2 => ls2
+-Notification: TURN_IDLE_DEVICE | mariaslamp => mariaslamp
+-Notification: USING_DEVICE | Person MOM Helen => shower
+-Notification: TURN_ON_DEVICE | shower => shower
+-Notification: TURN_IDLE_DEVICE | ls1 => ls1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_MICROWAVE | Person GRANDPA Max => microwave
+-Notification: TURN_IDLE_DEVICE | biglamp1 => biglamp1
+-Notification: USING_DEVICE | Person CHILD Ivan => biglamp2
+-Notification: TURN_ON_DEVICE | biglamp2 => biglamp2
+-Notification: USING_DEVICE | Person GRANDMA Max => ls2
+-Notification: TURN_ON_DEVICE | ls2 => ls2
+-Notification: TAKE_A_SHOWER | Person MOM Helen => shower
+-Notification: USING_DEVICE | Person CHILD Nazar => livingroomtv
+-Notification: TURN_ON_DEVICE | livingroomtv => livingroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person DAD Max => stove
+-Notification: TURN_ON_DEVICE | stove => stove
+-Notification: TURN_ON_DEVICE | Person CHILD Ivan => biglamp2
+-Notification: LISTENING_MUSIC | Person GRANDMA Max => ls2
+-Notification: WATCHING_TV | Person CHILD Nazar => livingroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | microwave => microwave
+-Notification: TURN_IDLE_DEVICE | fifthbedroomtv => fifthbedroomtv
+-Notification: COOKING | Person DAD Max => stove
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => vinyl
+-Notification: TURN_ON_DEVICE | vinyl => vinyl
+-Notification: USING_DEVICE | Person CHILD Maria => grandparentslamp
+-Notification: TURN_ON_DEVICE | grandparentslamp => grandparentslamp
+-Notification: TURN_IDLE_DEVICE | shower => shower
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_ON_DEVICE | Person GRANDPA Max => vinyl
+-Notification: TURN_ON_DEVICE | Person CHILD Maria => grandparentslamp
+-Notification: TURN_IDLE_DEVICE | biglamp2 => biglamp2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | stove => stove
+-Notification: USING_DEVICE | Person CHILD Ivan => ivanslamp
+-Notification: TURN_ON_DEVICE | ivanslamp => ivanslamp
+-Notification: USING_DEVICE | Person MOM Helen => biglamp2
+-Notification: TURN_ON_DEVICE | biglamp2 => biglamp2
+-Notification: TURN_IDLE_DEVICE | livingroomtv => livingroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person DAD Max => livingroomtv
+-Notification: TURN_ON_DEVICE | livingroomtv => livingroomtv
+-Notification: TURN_ON_DEVICE | Person CHILD Ivan => ivanslamp
+-Notification: TURN_IDLE_DEVICE | ls2 => ls2
+-Notification: TURN_ON_DEVICE | Person MOM Helen => biglamp2
+-Notification: USING_DEVICE | Person CHILD Nazar => ls1
+-Notification: TURN_ON_DEVICE | ls1 => ls1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | grandparentslamp => grandparentslamp
+-Notification: WATCHING_TV | Person DAD Max => livingroomtv
+-Notification: USING_DEVICE | Person GRANDMA Max => nazarslamp
+-Notification: TURN_ON_DEVICE | nazarslamp => nazarslamp
+-Notification: LISTENING_MUSIC | Person CHILD Nazar => ls1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room firstBedroom
+-Notification: PUT_OUT_THE_FIRE | Person DAD Max => Room thirdBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | vinyl => vinyl
+-Notification: SPORT_EQUIPMENT_USING | Person CHILD Maria => Ski:ROCKRIDER
+-Notification: TURN_ON_DEVICE | Person GRANDMA Max => nazarslamp
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: SPORT_EQUIPMENT_USING | Person GRANDPA Max => Ski:Salomon
+-Notification: TURN_IDLE_DEVICE | ivanslamp => ivanslamp
+-Notification: TURN_IDLE_DEVICE | biglamp2 => biglamp2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Ivan => biglamp2
+-Notification: TURN_ON_DEVICE | biglamp2 => biglamp2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room secondBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_ON_DEVICE | Person CHILD Ivan => biglamp2
+-Notification: TURN_IDLE_DEVICE | nazarslamp => nazarslamp
+-Notification: TURN_IDLE_DEVICE | livingroomtv => livingroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room firstBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Maria => vinyl
+-Notification: TURN_ON_DEVICE | vinyl => vinyl
+-Notification: SPORT_EQUIPMENT_USING | Person GRANDMA Max => Ski:Salomon
+-Notification: TURN_IDLE_DEVICE | ls1 => ls1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => oven
+-Notification: TURN_ON_DEVICE | oven => oven
+-Notification: TURN_ON_DEVICE | Person CHILD Maria => vinyl
+-Notification: USING_DEVICE | Person MOM Helen => parentslamp
+-Notification: TURN_ON_DEVICE | parentslamp => parentslamp
+-Notification: SPORT_EQUIPMENT_USING | Person DAD Max => Ski:Salomon
+-Notification: USING_DEVICE | Person CHILD Nazar => fridge
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room livingRoom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: BAKING | Person GRANDPA Max => oven
+-Notification: TURN_ON_DEVICE | Person MOM Helen => parentslamp
+-Notification: TURN_IDLE_DEVICE | biglamp2 => biglamp2
+-Notification: SPORT_EQUIPMENT_USING | Person CHILD Nazar => Ski:ROCKRIDER
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: SPORT_EQUIPMENT_USING | Person CHILD Ivan => Ski:ROCKRIDER
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDMA Max => thirdbedroomtv
+-Notification: TURN_ON_DEVICE | thirdbedroomtv => thirdbedroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | oven => oven
+-Notification: TURN_IDLE_DEVICE | vinyl => vinyl
+-Notification: TURN_IDLE_DEVICE | parentslamp => parentslamp
+-Notification: WATCHING_TV | Person GRANDMA Max => thirdbedroomtv
+-Notification: USING_DEVICE | Person DAD Max => biglamp2
+-Notification: TURN_ON_DEVICE | biglamp2 => biglamp2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: SPORT_EQUIPMENT_USING | Person GRANDPA Max => Ski:Salomon
+-Notification: SPORT_EQUIPMENT_USING | Person CHILD Maria => Ski:Salomon
+-Notification: SPORT_EQUIPMENT_USING | Person MOM Helen => Ski:ROCKRIDER
+-Notification: TURN_ON_DEVICE | Person DAD Max => biglamp2
+-Notification: USING_DEVICE | Person CHILD Nazar => grandparentslamp
+-Notification: TURN_ON_DEVICE | grandparentslamp => grandparentslamp
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Ivan => secondbedroomtv
+-Notification: TURN_ON_DEVICE | secondbedroomtv => secondbedroomtv
+-Notification: TURN_ON_DEVICE | Person CHILD Nazar => grandparentslamp
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: WATCHING_TV | Person CHILD Ivan => secondbedroomtv
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | thirdbedroomtv => thirdbedroomtv
+-Notification: TURN_IDLE_DEVICE | biglamp2 => biglamp2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => fridge
+-Notification: USING_DEVICE | Person CHILD Maria => nazarslamp
+-Notification: TURN_ON_DEVICE | nazarslamp => nazarslamp
+-Notification: USING_DEVICE | Person MOM Helen => parentslamp
+-Notification: TURN_ON_DEVICE | parentslamp => parentslamp
+-Notification: USING_DEVICE | Person GRANDMA Max => biglamp1
+-Notification: TURN_ON_DEVICE | biglamp1 => biglamp1
+-Notification: USING_DEVICE | Person DAD Max => ls1
+-Notification: TURN_ON_DEVICE | ls1 => ls1
+-Notification: TURN_IDLE_DEVICE | grandparentslamp => grandparentslamp
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room livingRoom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => ivanslamp
+-Notification: TURN_ON_DEVICE | ivanslamp => ivanslamp
+-Notification: TURN_ON_DEVICE | Person CHILD Maria => nazarslamp
+-Notification: TURN_ON_DEVICE | Person MOM Helen => parentslamp
+-Notification: TURN_ON_DEVICE | Person GRANDMA Max => biglamp1
+-Notification: LISTENING_MUSIC | Person DAD Max => ls1
+-Notification: USING_DEVICE | Person CHILD Nazar => ls2
+-Notification: TURN_ON_DEVICE | ls2 => ls2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_ON_DEVICE | Person GRANDPA Max => ivanslamp
+-Notification: TURN_IDLE_DEVICE | secondbedroomtv => secondbedroomtv
+-Notification: LISTENING_MUSIC | Person CHILD Nazar => ls2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person CHILD Ivan => microwave
+-Notification: TURN_ON_DEVICE | microwave => microwave
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | nazarslamp => nazarslamp
+-Notification: TURN_IDLE_DEVICE | parentslamp => parentslamp
+-Notification: USING_MICROWAVE | Person CHILD Ivan => microwave
+-Notification: TURN_IDLE_DEVICE | biglamp1 => biglamp1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: TURN_IDLE_DEVICE | ivanslamp => ivanslamp
+-Notification: USING_DEVICE | Person CHILD Maria => oven
+-Notification: TURN_ON_DEVICE | oven => oven
+-Notification: USING_DEVICE | Person GRANDMA Max => vinyl
+-Notification: TURN_ON_DEVICE | vinyl => vinyl
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: USING_DEVICE | Person GRANDPA Max => coffee
+-Notification: TURN_ON_DEVICE | coffee => coffee
+-Notification: BAKING | Person CHILD Maria => oven
+-Notification: USING_DEVICE | Person MOM Helen => nazarslamp
+-Notification: TURN_ON_DEVICE | nazarslamp => nazarslamp
+-Notification: TURN_IDLE_DEVICE | microwave => microwave
+-Notification: TURN_ON_DEVICE | Person GRANDMA Max => vinyl
+-Notification: TURN_IDLE_DEVICE | ls1 => ls1
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+-Notification: PUT_OUT_THE_FIRE | Person MOM Helen => Room thirdBedroom
+-Notification: TEMPERATURE_CHANGE | TemperatureSensor => TemperatureSensor
+-Notification: MAKING_COFFEE | Person GRANDPA Max => coffee
+-Notification: USING_DEVICE | Person CHILD Ivan => stove
+-Notification: TURN_ON_DEVICE | stove => stove
+-Notification: TURN_ON_DEVICE | Person MOM Helen => nazarslamp
+-Notification: TURN_IDLE_DEVICE | ls2 => ls2
+-Notification: ANIMAL_SOUND | Animal George => Animal George
+-Notification: ANIMAL_SOUND | Animal Daria => Animal Daria
+-Notification: ANIMAL_SOUND | Animal Polly => Animal Polly
+
+...........Alerts...........
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+-Alert: STRONG_WIND | WindSensor => Controller
+-Alert: FIRE | FireSensor => Controller
+
+
+
+------Consumption report from round 0 to 50------
+Device: biglamp1
+--Used 21.67000000000002 kW of ELECTRICITY. Total price: 119.1850000000001 Kč
+Device: biglamp2
+--Used 21.67000000000001 kW of ELECTRICITY. Total price: 119.18500000000004 Kč
+Device: coffee
+--Used 1.4900000000000002 kW of ELECTRICITY. Total price: 8.195 Kč
+Device: fifthbedroomtv
+--Used 8.26999999999999 kW of ELECTRICITY. Total price: 45.48499999999995 Kč
+Device: firstbedroomtv
+--Used 9.109999999999987 kW of ELECTRICITY. Total price: 50.104999999999926 Kč
+Device: fridge
+--Used 50.0 kW of ELECTRICITY. Total price: 275.0 Kč
+Device: grandparentslamp
+--Used 12.049999999999997 kW of ELECTRICITY. Total price: 66.27499999999998 Kč
+Device: ivanslamp
+--Used 11.670000000000002 kW of ELECTRICITY. Total price: 64.185 Kč
+Device: livingroomtv
+--Used 17.100000000000012 kW of ELECTRICITY. Total price: 94.05000000000007 Kč
+Device: ls1
+--Used 26.280000000000015 kW of ELECTRICITY. Total price: 144.54000000000008 Kč
+Device: ls2
+--Used 26.280000000000022 kW of ELECTRICITY. Total price: 144.54000000000013 Kč
+Device: mariaslamp
+--Used 10.169999999999996 kW of ELECTRICITY. Total price: 55.93499999999998 Kč
+Device: microwave
+--Used 9.399999999999997 kW of ELECTRICITY. Total price: 51.69999999999998 Kč
+Device: nazarslamp
+--Used 12.29 kW of ELECTRICITY. Total price: 67.595 Kč
+Device: oven
+--Used 21.20000000000001 kW of ELECTRICITY. Total price: 116.60000000000005 Kč
+Device: parentslamp
+--Used 23.21999999999998 kW of ELECTRICITY. Total price: 127.7099999999999 Kč
+Device: secondbedroomtv
+--Used 14.059999999999986 kW of ELECTRICITY. Total price: 77.32999999999993 Kč
+Device: shower
+--Used 126.8500000000001 m^3 of WATER. Total price: 11416.50000000001 Kč
+Device: stove
+--Used 11.949999999999987 kW of ELECTRICITY. Total price: 65.72499999999992 Kč
+Device: thirdbedroomtv
+--Used 14.059999999999986 kW of ELECTRICITY. Total price: 77.32999999999993 Kč
+Device: toilet
+--Used 30.600000000000026 m^3 of WATER. Total price: 2754.0000000000023 Kč
+Device: vinyl
+--Used 19.47000000000001 kW of ELECTRICITY. Total price: 107.08500000000005 Kč
+
+Total water consumption:
+--Used 28.119999999999973 m^3 of WATER. Total price: 2530.7999999999975 Kč
+Total electricity consumption:
+--Used 451.27000000000015 kW of ELECTRICITY. Total price: 2481.985000000001 Kč

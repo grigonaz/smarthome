@@ -1,0 +1,32 @@
+package events;
+
+/**
+ * Contains all the notification types.
+ */
+public enum NotificationType {
+    SPORT_EQUIPMENT_USING,
+    TEMPERATURE_CHANGE,
+    PUT_OUT_THE_FIRE,
+    TURN_IDLE_DEVICE,
+    TURN_OFF_DEVICE,
+    USING_MICROWAVE,
+    LISTENING_MUSIC,
+    TURN_ON_DEVICE,
+    DOOR_IS_CLOSED,
+    DOOR_IS_OPENED,
+    MAKING_COFFEE,
+    TAKE_A_SHOWER,
+    DRIVING_AUTO,
+    ANIMAL_SOUND,
+    USING_DEVICE,
+    WATCHING_TV,
+    EATING_FOOD,
+    ADDING_FOOD,
+    DO_NOTHING,
+    LOUVERS_ON,
+    REPAIRING,
+    SHOPPING,
+    COOKING,
+    BAKING,
+    WC
+}
